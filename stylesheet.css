@@ -1,0 +1,1705 @@
+/* body {
+  background:  #215fc2;
+  width: 100%;
+} */
+
+p {
+    align-content: center;
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome and Opera */
+  }
+  
+  a {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome and Opera */
+  }
+  #credits {
+    color: #1e70db;
+    font-size: 3vmin;
+    font-family: sliced;
+    position: absolute;
+    bottom: -1%;
+    right: 1%;
+
+  }
+
+  #credits:hover {
+    color: #1e70db;
+    font-family: sliced;
+    font-size: 3vmin;
+    bottom: -1%;
+    right: 1%;
+    /* text-shadow: 0 0 19px rgb(184, 227, 255); */
+    color: #131313;
+    background: #e7e5e4;
+    letter-spacing: .15em;
+    color: #FFFFFF;
+    background: #333333;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+  }
+
+  @media (min-width: 800px){
+    .main {
+      /* width: 640px;
+      position: relative;
+      height: 628px; */
+      width: 90%;
+      height: 80%;
+      position: relative;
+      display: inline-block;
+      /*padding: 7px;*/
+      border: 3px solid #2456ad;
+      margin: 0 auto;
+      left: 35%;
+      /*position: absolute;*/
+      /* margin-left: 50%; */
+      z-index: 0;
+      background: #4880db;
+      background: -moz-radial-gradient(center, ellipse cover, rgba(41,151,255,1) 0%, rgba(1,37,110,1) 100%); /* ff3.6+ */
+      background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(41,151,255,1)), color-stop(100%, rgba(1,37,110,1))); /* safari4+,chrome */
+      background:-webkit-radial-gradient(center, ellipse cover, rgba(41,151,255,1) 0%, rgba(1,37,110,1) 100%); /* safari5.1+,chrome10+ */
+      background: -o-radial-gradient(center, ellipse cover, rgba(41,151,255,1) 0%, rgba(1,37,110,1) 100%); /* opera 11.10+ */
+      background: -ms-radial-gradient(center, ellipse cover, rgba(41,151,255,1) 0%, rgba(1,37,110,1) 100%); /* ie10+ */
+      background:radial-gradient(ellipse at center, rgba(41,151,255,1) 0%, rgba(1,37,110,1) 100%); /* w3c */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2997FF', endColorstr='#01256E',GradientType=1 ); /* ie6-9 */
+    }
+    body {
+      width: 100vh;
+      height: 100vh;
+      min-height: 100vh;
+      min-width: 100vh;
+      background-color: #0f3f9e;
+      /*background: linear-gradient(-62deg, #0f479b, #0e4295, #0b3282, #092571);
+      background-size: 600% 600%;
+  
+      -webkit-animation: Gradient 5s ease infinite;
+      -moz-animation: Gradient 5s ease infinite;
+      animation: Gradient 5s ease infinite;
+      */
+    }
+  
+    .grid {
+      font-family: slant;
+      font-size: 44vmin;
+      color: #041b45;
+      margin: 0px;
+      padding: 0px;
+      border: none;
+      outline: 2px solid #228ae5;
+      display: inline-block;
+      vertical-align: middle;
+      text-align: center;
+      position: relative;
+      line-height: 100px;
+      white-space: nowrap;
+  
+      -moz-box-shadow:    inset 0 0 6px #0000Fa;
+      -webkit-box-shadow: inset 0 0 6px #000000;
+      box-shadow:         inset 0 0 6px #000000;
+    }
+    #numPad {
+      width: 99%;
+      height: 40%;
+      top: 30px;
+      left: 25%;
+      /*margin: 0 auto;*/
+      margin-left: 6%;
+    }
+  
+    .numPadDigit {
+      width: 160px;
+      height: 120px;
+      /* width: 106px;
+      height: 80px; */
+      font-family: slant;
+      font-size: 4.8vmin;
+      color: #041b45;
+      margin: 9px;
+      padding: 0px;
+      border: none;
+      outline: 4px solid #228ae5;
+      text-shadow: 1px 2px 4px #000000;
+      background-color: #1a57b8;
+      color: #b3e0ff;
+      display: inline-block;
+      vertical-align: middle;
+      text-align: center;
+      position: relative;
+      line-height: 130px;
+      white-space: nowrap;
+  
+      -webkit-touch-callout: none; /* iOS Safari */
+        -webkit-user-select: none; /* Safari */
+        -khtml-user-select: none; /* Konqueror HTML */
+          -moz-user-select: none; /* Old versions of Firefox */
+            -ms-user-select: none; /* Internet Explorer/Edge */
+                user-select: none; /* Non-prefixed version, currently
+                                      supported by Chrome, Opera and Firefox */
+  
+      -moz-box-shadow:    inset 0 0 6px #0000Fa;
+      -webkit-box-shadow: inset 0 0 6px #000000;
+      box-shadow:         inset 0 0 6px #000000;
+    }
+  
+  .numPadDigit:hover {
+    font-family: slant;
+    font-size: 64px;
+    margin: 9px;
+    padding: 0px;
+    color: #b3e0ff;
+  
+    border: none;
+    outline: 4px solid #228ae5;
+    text-shadow: 1px 2px 4px #000000;
+  
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+    line-height: 130px;
+    white-space: nowrap;
+  
+    -moz-box-shadow:    inset 0 0 6px #0000Fa;
+    -webkit-box-shadow: inset 0 0 6px #000000;
+    box-shadow:         inset 0 0 6px #000000;
+    box-shadow: 0 0 10px #50dcff,  0 0 10px rgba(255,255,255,1);
+    text-shadow: 0 0 10px #507fff,  0 0 10px rgba(255,255,255,1);
+    }
+    #piGrid {
+      -webkit-touch-callout: none; /* iOS Safari */
+        -webkit-user-select: none; /* Safari */
+        -khtml-user-select: none; /* Konqueror HTML */
+          -moz-user-select: none; /* Firefox */
+            -ms-user-select: none; /* Internet Explorer/Edge */
+                user-select: none; /* Non-prefixed version, currently
+                                      supported by Chrome and Opera */
+      position: relative;
+      font-size: 2vmin;
+      font-family: slant;
+      margin: auto;
+      font-color: #041b45;
+      width: 100%;
+      height: 99%;
+      padding: 0px;
+      top: 1%;
+      color: #041b45;
+      float: bottom;
+      z-index: 2;
+    }
+    .gameOver {
+      position: relative;
+      display: block;
+      top: -60%;
+      width: 60%;
+      height: 52%;
+      border-radius: 11px 11px;
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a90329+0,8f0222+44,6d0019+100;Brown+Red+3D */
+      background: #a90329; /* Old browsers */
+      background: -moz-radial-gradient(center, ellipse cover, #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6-15 */
+      background: -webkit-radial-gradient(center, ellipse cover, #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10-25,Safari5.1-6 */
+      background: radial-gradient(ellipse at center, #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  
+      z-index: 99;
+      margin: 0 auto;
+  
+      -webkit-box-shadow: 0 0 9200px 214px #4c0000;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+      -moz-box-shadow:    0 0 9200px 214px #4c0000;  /* Firefox 3.5 - 3.6 */
+      box-shadow:         0 0 9200px 214px #4c0000;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  
+    }
+  
+    .gameOver p {
+      color: #ff6363;
+      font-family: sliced;
+      font-size: 3.8vmin;
+      position: relative;
+      display: block;
+      float: top;
+      top: 1%;
+      left: 15%;
+      width: 100%;
+      margin: 2px auto;
+      margin-top: 5%;
+      text-shadow: 1px 2px 4px #000000;
+    }
+  
+    #gameOverText {
+      font-family: slant;
+      font-size: 4.8vmin;
+      top: 5%;
+      color: #ff9696;
+      width: 100%;
+      text-shadow: 0 0 20px #250202,  0 0 30px rgb(75, 13, 13);
+      text-shadow: 0 0 70px #e23131,  0 0 30px rgba(255,255,255,1);
+    }
+    .newGameOptions {
+      position: relative;
+      font-family: sliced;
+      float: bottom;
+      font-size: 3.2vmin;
+      width: 100%;
+      height: 40%;
+      bottom: -4%;
+    }
+    
+    .newGameOptions a {
+      margin-left: 7%;
+      bottom: 5%;
+    }
+    
+    #newGamePrompt {
+      font-family: sliced;
+      font-size: 3.0vmin;
+      color: #f7c204;
+      position: relative;
+      left: 10%;
+      height: 2.52vmin;
+      width: 100%;
+      text-shadow: 2px 2px 5px #000000;
+      margin-bottom: 20%;
+    }
+    
+      #yesGame {
+      bottom: 0;
+      margin-left: 12%;
+      color: #38c61f;
+      text-shadow: 0 0 25px #8eff7a,  0 0 90px rgba(255,255,255,1);
+      }
+  
+      #yesGame:hover {
+      cursor: pointer;
+      color: #68fc4e;
+      }
+  
+      #noGame {
+      bottom: 0;
+      color: #ff3a3a;
+      text-shadow: 0 0 25px #ff8989,  0 0 190px rgba(255,255,255,1);
+      }
+  
+      #noGame:hover {
+      cursor: pointer;
+      color: #c50505;
+      }
+    #queryUserInput {
+      outline: none;
+      margin-top: 7%;
+      background: #094477;;
+      height: 3.0vmin;
+      width: 40%;
+      position: relative;
+      font-size: 3vmin;
+      text-align: center;
+      font-family: sliced;
+      color: #f4b41c;
+      left: 20%;
+      bottom: -5%;
+      margin-right: 13%;
+    }
+    #observeUser {
+      position: relative;
+      float: right;
+      font-family: sliced;
+      background: rgb(208,40,85);
+      background: radial-gradient(circle, rgba(208,40,85,1) 0%, rgba(253,29,29,1) 11%, rgba(252,115,52,1) 42%, rgba(252,176,69,1) 100%);
+      -webkit-background-clip: text;
+      color: transparent;
+      font-size: 3.2vmin;
+      bottom: -5%;
+      left: 4%;
+      margin-top: 7%;
+    }
+    #observeUser:hover {
+      cursor: pointer;
+      position: relative;
+      float: right;
+      font-family: sliced;
+      color: #d56aff;
+      font-size: 3.2vmin;
+      text-shadow: 10 10 30px #7a3ac3,  0 0 30px rgb(226, 152, 255);
+      background: rgb(252,176,69);
+      background: radial-gradient(circle, rgba(252,176,69,1) 0%, rgba(252,115,52,1) 42%, rgba(253,29,29,1) 65%, rgba(208,40,85,1) 95%);
+      -webkit-background-clip: text;
+      color: transparent;
+    } 
+    .submitUsername {
+      position: relative;
+      display: block;
+      top: -100%;
+      width: 50%;
+      height: 165px;
+      border-radius: 10px 30px;
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a90329+0,8f0222+44,6d0019+100;Brown+Red+3D */
+      background: #a90329; /* Old browsers */
+      background: -moz-radial-gradient(center, ellipse cover, #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6-15 */
+      background: -webkit-radial-gradient(center, ellipse cover, #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10-25,Safari5.1-6 */
+      background: radial-gradient(ellipse at center, #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  
+      background: #f2994a; /* fallback for old browsers */
+      background: -webkit-radial-gradient(center, #ffc500, #f2860c); /* Chrome 10-25, Safari 5.1-6 */
+      background: radial-gradient(center, #ffc500, #f2860c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+      z-index: 99;
+      margin: 0 auto;
+  
+      -webkit-box-shadow: 0 0 120px 20px #6b3a03;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+      -moz-box-shadow:    0 0 120px 20px #442400;  /* Firefox 3.5 - 3.6 */
+      box-shadow:         0 0 120px 20px #552e01;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+    }
+    .submitUsername p {
+      color: #f2c830;
+      font-family: sliced;
+      font-size: 2.8vmin;
+      position: relative;
+      display: inline-block;
+      width: 100%;
+      margin: 2px auto;
+      top: 15%;
+      text-align: center;
+      text-shadow: 1px 2px 4px #000000;
+    }
+    .submitUsername a {
+      width: 40%;
+      font-family: sliced;
+      display: inline-block;
+      cursor: pointer;
+      font-size: 3.14vmin;
+      position: relative;
+      text-align: center;
+    
+      margin: 2px auto;
+      top: 12%;
+      text-shadow: 1px 2px 10px #000000;
+    }
+    .gameStage {
+      margin: auto;
+      width: 100%; 
+      height: 67%;
+      max-height: 67;
+      /*display: inline-block;*/
+      display: flex;
+      position: relative;
+      /*border: 2px solid #42b0f4;*/
+    }
+    
+    .indexGui input {
+      outline: none;
+      background: #f2c830;
+      height: 3.0vmin;
+      width: 50%;
+      position: relative;
+      float: left;
+      top: 20%;
+      font-size: 3vmin;
+      text-align: center;
+      font-family: sliced;
+      color: #5e2d0f;
+      margin-left: 10%;
+      margin-right: auto;
+      /*text-shadow: 1px 2px 3px #000000;*/
+    }
+    .gameStage p{
+      /*top: 5%;
+      float: left;*/
+      font-size: 2.0vmax;
+    }
+    #trainingIndicator {
+      color: #f2c830;
+      font-family: sliced;
+      position: absolute;
+      bottom: -10px;
+      right: 0;
+      left: 10px;
+      width: 628px;
+      font-size: 5vmin;
+      text-shadow: 2px 2px 5px #000000;
+    }
+    .homeMenu {
+      font-family: slant;
+      /*font-size: 40vmax;*/
+      width: 100%;
+      height: 100%;
+      /*display: block;
+      margin: 0 auto;*/
+      z-index: 1;
+      color: white;
+  
+      text-align: center;
+    }
+  
+    .homeMenu span{
+      -webkit-touch-callout: none; /* iOS Safari */
+        -webkit-user-select: none; /* Safari */
+        -khtml-user-select: none; /* Konqueror HTML */
+          -moz-user-select: none; /* Firefox */
+            -ms-user-select: none; /* Internet Explorer/Edge */
+                user-select: none; /* Non-prefixed version, currently
+                                      supported by Chrome and Opera */
+      width: 82%;
+      color: #68a2ff;
+      font-family: slant;
+      font-size: 6.28vmin;
+      /*position: relative;
+      display: inline-flex;*/
+      margin-top: 3%;
+      display: inline-block;
+      text-align: center;
+    /*
+      top: 22%;
+      left: 5%;
+      right: 8%;
+      margin-right: 45px;
+      float: left;
+      */
+      text-shadow: 1px 2px 3px #00173d;
+      transition: all 0.2s ease-in;
+    }
+  
+    /*
+    .homeMenu a:hover{
+      color: #99c0ff;
+      font-family: slant;
+      margin-left: 16px;
+      cursor: pointer;
+      color: rgba(255,255,255,1);
+      text-decoration: normal;
+      text-overflow: clip;
+      white-space: pre;
+      text-shadow: 0 0 70px #00ffff,  0 0 30px rgba(255,255,255,1);
+      transform: scale(1.5);
+    }
+    */
+    .homeMenu span:hover{
+      font-family: slant;
+    /*  position: relative;
+      margin-top: 20px;
+      display: block;
+      top: 22%;
+      left: 7%;
+      */
+      margin-left: 12px;
+      cursor: pointer;
+      color: rgb(226, 241, 255);
+      text-decoration: normal;
+      text-overflow: clip;
+      white-space: pre;
+      transform: scale(1.12);
+      text-shadow: 0 0 30px rgb(114, 199, 255);
+    }
+    #title {
+      -webkit-touch-callout: none; /* iOS Safari */
+        -webkit-user-select: none; /* Safari */
+        -khtml-user-select: none; /* Konqueror HTML */
+          -moz-user-select: none; /* Firefox */
+            -ms-user-select: none; /* Internet Explorer/Edge */
+                user-select: none; /* Non-prefixed version, currently
+                                      supported by Chrome and Opera */
+      color: white;
+      position: relative;
+  
+      /*top: 0px;*/
+      font-size: 14vmin;
+      text-shadow: 1px 2px 4px #000000;
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 5%;
+    }
+  
+    .optionButtons {
+      width: 20%;
+      margin-top: 2%;
+      position: relative;
+      display: inline-block;
+      left: 35%;
+    }
+    
+    .optionButtons button{
+      display: block;
+    }
+    
+    #soundButton {
+      /* position: absolute;
+      display: flex; */
+      border: none;
+      outline: none;
+      background:url('res/soundIcon.png');
+      background-size: 36px 36px;
+      /* right: -40px;
+      bottom: 0px; */
+      width: 36px;
+      height: 36px;
+    }
+    #soundButton:hover {
+      border: none;
+      outline: none;
+      background:url('res/soundIcon.png');
+      background-size: 36px 36px;
+      /* right: -42px;
+      bottom: 0px; */
+      width: 36px;
+      height: 36px;
+    }
+    #numpadButton {
+      /* position: absolute;
+      display: flex; */
+      border: none;
+      outline: none;
+      background:url('res/numpad.png');
+      background-size: 74px 100px;
+      /* right: -80px;
+      bottom: 60px; */
+      width: 74px;
+      height: 100px;
+      z-index: 0;
+    }
+    
+    #numpadButton:hover {
+      /* position: absolute;
+      display: flex; */
+      border: none;
+      outline: none;
+      background:url('res/numpad.png');
+      background-size: 74px 100px;
+      /* right: -82px;
+      bottom: 60px; */
+      width: 74px;
+      height: 100px;
+      text-shadow: 0 0 70px #00ffff,  0 0 30px rgba(255,255,255,1);
+    }
+    #leatherboardOption {
+      background: rgb(252,183,70);
+      background: radial-gradient(circle, rgba(252,183,70,1) 3%, rgba(223,89,27,1) 90%); 
+      background-clip: text; 
+      -webkit-background-clip: text;
+      color: transparent; 
+      -webkit-text-fill-color: transparent;
+      position: relative;
+      bottom: 15%;
+      left: 22%;
+    }
+    
+    #leatherboardOption:hover {
+      background: rgb(255, 228, 184);
+      background-clip: text; 
+      -webkit-background-clip: text;
+      color: transparent; 
+    }
+    #avgScores {
+      position: absolute;
+      float: right;
+      color: #f2c830;
+      font-family: sliced;
+      font-size: 2.8vmin;
+      right: 0%;
+      bottom: -5%;
+    }
+  
+    #backHomeFromGraph {
+      position: relative;
+      float: left;
+      font-family: sliced;
+      color: #7ccfff;
+      font-size: 2.4vmin;
+      bottom: -5%;
+      left: 2%;
+      margin-top: 7%;
+    }
+  
+    #backHomeFromGraph:hover {
+      cursor: pointer;
+      font-size: 2.4vmin;
+      text-shadow: 0 0 70px #00ffff,  0 0 30px rgba(255,255,255,1);
+    }
+  
+    #backHomeFromGame {
+      position: absolute;
+      font-family: sliced;
+      color: #ffe9c7;
+      font-size: 3.0vmin;
+      bottom: 15px;
+      right: 10px;
+    }
+  
+    #backHomeFromGame:hover {
+      cursor: pointer;
+      font-size: 2.8vmin;
+      text-shadow: 0 0 70px #00ffff,  0 0 30px rgba(255,255,255,1);
+    }
+  
+  }
+  
+  @media (max-width: 800px){
+    .main {
+      /* width: 640px;
+      position: relative;
+      height: 628px; */
+      width: 98%;
+      height: 58%;
+      min-height: 58%;
+      position: relative;
+      display: inline-block;
+      /*padding: 7px;*/
+      border: 1px solid #2456ad;
+      /*position: absolute;*/
+      /* margin-left: 50%; */
+      z-index: 0;
+      background: #4880db;
+      background: -moz-radial-gradient(center, ellipse cover, rgba(41,151,255,1) 0%, rgba(1,37,110,1) 100%); /* ff3.6+ */
+      background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(41,151,255,1)), color-stop(100%, rgba(1,37,110,1))); /* safari4+,chrome */
+      background:-webkit-radial-gradient(center, ellipse cover, rgba(41,151,255,1) 0%, rgba(1,37,110,1) 100%); /* safari5.1+,chrome10+ */
+      background: -o-radial-gradient(center, ellipse cover, rgba(41,151,255,1) 0%, rgba(1,37,110,1) 100%); /* opera 11.10+ */
+      background: -ms-radial-gradient(center, ellipse cover, rgba(41,151,255,1) 0%, rgba(1,37,110,1) 100%); /* ie10+ */
+      background:radial-gradient(ellipse at center, rgba(41,151,255,1) 0%, rgba(1,37,110,1) 100%); /* w3c */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2997FF', endColorstr='#01256E',GradientType=1 ); /* ie6-9 */
+    }
+    body {
+      width: 97vw;
+      height: 85vh;
+      min-height: 85vh;
+      min-width: 97vw;
+      background-color: #0f3f9e;
+      /*background: linear-gradient(-62deg, #0f479b, #0e4295, #0b3282, #092571);
+      background-size: 600% 600%;
+  
+      -webkit-animation: Gradient 5s ease infinite;
+      -moz-animation: Gradient 5s ease infinite;
+      animation: Gradient 5s ease infinite;
+      */
+    }
+    .gameStage {
+      margin: auto;
+      width: 100%;
+      min-height: 67%;
+      height: 67%;
+      /*display: inline-block;*/
+      display: flex;
+      position: relative;
+      /*border: 2px solid #42b0f4;*/
+    }
+  
+    .gameStage p{
+      /*top: 5%;
+      float: left;*/
+      font-size: 2.9vmax;
+    }
+    #trainingIndicator {
+      color: #f2c830;
+      font-family: sliced;
+      position: absolute;
+      bottom: -10px;
+      right: 0;
+      left: 10px;
+      width: 628px;
+      font-size: 4.20vmin;
+      text-shadow: 2px 2px 5px #000000;
+    }
+  
+    .homeMenu {
+      font-family: slant;
+      /*font-size: 40vmax;*/
+      width: 100%;
+      height: 100%;
+      /*display: block;
+      margin: 0 auto;*/
+      z-index: 1;
+      color: white;
+  
+      text-align: center;
+    }
+  
+    .homeMenu span{
+      -webkit-touch-callout: none; /* iOS Safari */
+        -webkit-user-select: none; /* Safari */
+        -khtml-user-select: none; /* Konqueror HTML */
+          -moz-user-select: none; /* Firefox */
+            -ms-user-select: none; /* Internet Explorer/Edge */
+                user-select: none; /* Non-prefixed version, currently
+                                      supported by Chrome and Opera */
+      width: 82%;
+      color: #7aa7ef;
+      font-family: slant;
+      font-size: 4.8vmax;
+      /*position: relative;
+      display: inline-flex;*/
+      margin-top: 3%;
+      display: inline-block;
+      text-align: center;
+    /*
+      top: 22%;
+      left: 5%;
+      right: 8%;
+      margin-right: 45px;
+      float: left;
+      */
+      text-shadow: 1px 2px 3px #00173d;
+      transition: all 0.2s ease-in;
+    }
+  
+    /*
+    .homeMenu a:hover{
+      color: #99c0ff;
+      font-family: slant;
+      margin-left: 16px;
+      cursor: pointer;
+      color: rgba(255,255,255,1);
+      text-decoration: normal;
+      text-overflow: clip;
+      white-space: pre;
+      text-shadow: 0 0 70px #00ffff,  0 0 30px rgba(255,255,255,1);
+      transform: scale(1.5);
+    }
+    */
+    .homeMenu span:hover{
+      font-family: slant;
+    /*  position: relative;
+      margin-top: 20px;
+      display: block;
+      top: 22%;
+      left: 7%;
+      */
+      margin-left: 12px;
+      cursor: pointer;
+      color: rgb(226, 241, 255);
+      text-decoration: normal;
+      text-overflow: clip;
+      white-space: pre;
+      transform: scale(1.12);
+      text-shadow: 0 0 30px rgb(114, 199, 255);
+    }
+  
+    #title {
+      -webkit-touch-callout: none; /* iOS Safari */
+        -webkit-user-select: none; /* Safari */
+        -khtml-user-select: none; /* Konqueror HTML */
+          -moz-user-select: none; /* Firefox */
+            -ms-user-select: none; /* Internet Explorer/Edge */
+                user-select: none; /* Non-prefixed version, currently
+                                      supported by Chrome and Opera */
+      color: white;
+      position: relative;
+  
+      /*top: 0px;*/
+      font-size: 14vmin;
+      text-shadow: 1px 2px 4px #000000;
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 5%;
+    }
+    .gameOver {
+      position: relative;
+      display: block;
+      top: -60%;
+      width: 60%;
+      /*height: 52%;*/
+      height: 230px;
+      border-radius: 11px 11px;
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a90329+0,8f0222+44,6d0019+100;Brown+Red+3D */
+      background: #a90329; /* Old browsers */
+      background: -moz-radial-gradient(center, ellipse cover, #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6-15 */
+      background: -webkit-radial-gradient(center, ellipse cover, #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10-25,Safari5.1-6 */
+      background: radial-gradient(ellipse at center, #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  
+      z-index: 99;
+      margin: 0 auto;
+  
+      -webkit-box-shadow: 0 0 92px 21px #4c0000;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+      -moz-box-shadow:    0 0 92px 21px #4c0000;  /* Firefox 3.5 - 3.6 */
+      box-shadow:         0 0 92px 21px #4c0000;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  
+    }
+  
+    .gameOver p {
+      color: #ff6363;
+      font-family: sliced;
+      font-size: 3.8vmin;
+      position: relative;
+      display: block;
+      float: top;
+      top: 1%;
+      left: 15%;
+      width: 100%;
+      margin: 2px auto;
+      /* margin-top: 5%; */
+      top: 30px;
+      text-shadow: 1px 2px 4px #000000;
+    }
+  
+    #gameOverText {
+      font-family: slant;
+      font-size: 4.8vmin;
+      top: 5%;
+      color: #ff9696;
+      width: 100%;
+      text-shadow: 0 0 20px #250202,  0 0 30px rgb(75, 13, 13);
+      text-shadow: 0 0 70px #e23131,  0 0 30px rgba(255,255,255,1);
+    }
+    .newGameOptions {
+      position: relative;
+      font-family: sliced;
+      float: bottom;
+      font-size: 3.8vmin;
+      width: 100%;
+      height: 100%;
+    }
+    
+    .newGameOptions a {
+      margin-left: 10%;
+      top: 25%;
+    }
+    
+    #newGamePrompt {
+      font-family: sliced;
+      font-size: 3.4vmin;
+      color: #f7c204;
+      position: relative;
+      left: 5%;
+      height: 2.22vmin;
+      width: 100%;
+      text-shadow: 2px 2px 5px #000000;
+      top: 20%;
+    }
+    .newGameOptionBar {
+      position: absolute;
+      width: 100%;
+      height: 20%;
+      top: 75px;
+    }
+    #yesGame {
+      bottom: 5px;
+      margin-left: 12%;
+      color: #38c61f;
+      text-shadow: 0 0 25px #8eff7a,  0 0 90px rgba(255,255,255,1);
+    }
+    
+    #yesGame:hover {
+      cursor: pointer;
+      color: #68fc4e;
+    }
+    
+    #noGame {
+      bottom: 5px;
+      color: #ff3a3a;
+      text-shadow: 0 0 25px #ff8989,  0 0 190px rgba(255,255,255,1);
+    }
+    
+    #noGame:hover {
+      cursor: pointer;
+      color: #c50505;
+    }
+  
+    #numPad {
+      width: 80%;
+      height: 40%;
+      left: 35%;
+      /*margin: 0 auto;*/
+      top:20%;
+      margin-left: 15%;
+    }
+  
+    .numPadDigit {
+      float: left;
+      width: 25%;
+      height: 25%;
+      font-family: slant;
+      font-size: 4.8vmin;
+      color: #041b45;
+      margin: 6px;
+      padding: 0px;
+      border: none;
+      outline: 2px solid #228ae5;
+      text-shadow: 1px 2px 4px #000000;
+      background-color: #1a57b8;
+      color: #b3e0ff;
+      display: inline;
+      vertical-align: middle;
+      text-align: center;
+      position: relative;
+      line-height: 60px;
+      white-space: nowrap;
+  
+      -webkit-touch-callout: none; /* iOS Safari */
+        -webkit-user-select: none; /* Safari */
+        -khtml-user-select: none; /* Konqueror HTML */
+          -moz-user-select: none; /* Old versions of Firefox */
+            -ms-user-select: none; /* Internet Explorer/Edge */
+                user-select: none; /* Non-prefixed version, currently
+                                      supported by Chrome, Opera and Firefox */
+  
+      -moz-box-shadow:    inset 0 0 6px #0000Fa;
+      -webkit-box-shadow: inset 0 0 6px #000000;
+      box-shadow:         inset 0 0 6px #000000;
+    }
+  
+      .numPadDigit:hover {
+      font-family: slant;
+      font-size: 5vmin;
+      margin: 6px;
+      padding: 0px;
+      color: #b3e0ff;
+  
+      border: none;
+      outline: 4px solid #228ae5;
+      text-shadow: 1px 2px 4px #000000;
+  
+      display: inline-block;
+      vertical-align: middle;
+      text-align: center;
+      position: relative;
+      line-height:60px;
+      white-space: nowrap;
+  
+      -moz-box-shadow:    inset 0 0 6px #0000Fa;
+      -webkit-box-shadow: inset 0 0 6px #000000;
+      box-shadow:         inset 0 0 6px #000000;
+      box-shadow: 0 0 10px #50dcff,  0 0 10px rgba(255,255,255,1);
+      text-shadow: 0 0 10px #507fff,  0 0 10px rgba(255,255,255,1);
+      }
+  
+      #piGrid {
+          -webkit-touch-callout: none; /* iOS Safari */
+            -webkit-user-select: none; /* Safari */
+            -khtml-user-select: none; /* Konqueror HTML */
+              -moz-user-select: none; /* Firefox */
+                -ms-user-select: none; /* Internet Explorer/Edge */
+                    user-select: none; /* Non-prefixed version, currently
+                                          supported by Chrome and Opera */
+          position: relative;
+          font-size: 2vmin;
+          font-family: slant;
+          margin: auto;
+          font-color: #041b45;
+          width: 100%;
+          height: 99%;
+          padding: 0px;
+          color: #041b45;
+          float: bottom;
+          z-index: 2;
+        }
+      .grid {
+      font-family: slant;
+      font-size: 44vmin;
+      color: #041b45;
+      margin: 0px;
+      padding: 0px;
+      border: none;
+      outline: 2px solid #228ae5;
+      display: inline-block;
+      text-align: center;
+      position: relative;
+      line-height: 100px;
+      white-space: nowrap;
+  
+      -moz-box-shadow:    inset 0 0 6px #0000Fa;
+      -webkit-box-shadow: inset 0 0 6px #000000;
+      box-shadow:         inset 0 0 6px #000000;
+      }
+  
+      .indexGui input {
+          outline: none;
+          background: #f2c830;
+          height: 3.0vmin;
+          width: 50%;
+          position: relative;
+          float: left;
+          top: 20%;
+          margin-left: 38%;
+          font-size: 3vmin;
+          text-align: center;
+          font-family: sliced;
+          color: #5e2d0f;
+          margin-left: 5%;
+          margin-right: auto;
+          /*text-shadow: 1px 2px 3px #000000;*/
+          }
+          #queryUserInput {
+              outline: none;
+              margin-top: 7%;
+              background: #094477;;
+              height: 3.0vmin;
+              width: 40%;
+              position: relative;
+              font-size: 3vmin;
+              text-align: center;
+              font-family: sliced;
+              color: #f4b41c;
+              left: 20%;
+              bottom: -5%;
+              margin-right: 13%;
+            }
+            #observeUser {
+              position: relative;
+              float: right;
+              font-family: sliced;
+              background: rgb(208,40,85);
+              background: radial-gradient(circle, rgba(208,40,85,1) 0%, rgba(253,29,29,1) 11%, rgba(252,115,52,1) 42%, rgba(252,176,69,1) 100%);
+              -webkit-background-clip: text;
+              color: transparent;
+              font-size: 3.2vmin;
+              left: 4%;
+              margin-top: 8%;
+            }
+            #observeUser:hover {
+              cursor: pointer;
+              position: relative;
+              float: right;
+              font-family: sliced;
+              color: #d56aff;
+              font-size: 3.2vmin;
+              text-shadow: 10 10 30px #7a3ac3,  0 0 30px rgb(226, 152, 255);
+              background: rgb(252,176,69);
+              background: radial-gradient(circle, rgba(252,176,69,1) 0%, rgba(252,115,52,1) 42%, rgba(253,29,29,1) 65%, rgba(208,40,85,1) 95%);
+              -webkit-background-clip: text;
+              color: transparent;
+            } 
+          
+            .submitUsername {
+              position: relative;
+              display: block;
+              top: -100%;
+              width: 50%;
+              height: 110px;
+              border-radius: 10px 10px 0px 0px;
+              /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a90329+0,8f0222+44,6d0019+100;Brown+Red+3D */
+              background: #a90329; /* Old browsers */
+              background: -moz-radial-gradient(center, ellipse cover, #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6-15 */
+              background: -webkit-radial-gradient(center, ellipse cover, #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10-25,Safari5.1-6 */
+              background: radial-gradient(ellipse at center, #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+              filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+          
+              background: #f2994a; /* fallback for old browsers */
+              background: -webkit-radial-gradient(center, #ffc500, #f2860c); /* Chrome 10-25, Safari 5.1-6 */
+              background: radial-gradient(center, #ffc500, #f2860c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+          
+              z-index: 99;
+              margin: 0 auto;
+          
+              -webkit-box-shadow: 0 0 120px 20px #6b3a03;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+              -moz-box-shadow:    0 0 120px 20px #442400;  /* Firefox 3.5 - 3.6 */
+              box-shadow:         0 0 120px 20px #552e01;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+            }
+            .submitUsername p {
+              color: #f2c830;
+              font-family: sliced;
+              font-size: 3.9vmin;
+              position: relative;
+              display: inline-block;
+              width: 100%;
+              margin: 2px auto;
+              top: 15%;
+              text-align: center;
+              text-shadow: 1px 2px 4px #000000;
+            }
+            .submitUsername a {
+              width: 40%;
+              font-family: sliced;
+              display: inline-block;
+              cursor: pointer;
+              font-size: 3.9vmin;
+              position: relative;
+              text-align: center;
+            
+              margin: 2px auto;
+              top: 12%;
+              text-shadow: 1px 2px 10px #000000;
+            }
+  
+  
+            .optionButtons {
+              width: 20%;
+              margin-top: 2%;
+              position: relative;
+              display: inline-block;
+              left: 0%;
+            }
+            
+            .optionButtons button{
+              display: block;
+            }
+            
+            #soundButton {
+              /* position: absolute;
+              display: flex; */
+              border: none;
+              outline: none;
+              background:url('res/soundIcon.png');
+              background-size: 36px 36px;
+              /* right: -40px;
+              bottom: 0px; */
+              width: 36px;
+              height: 36px;
+            }
+            #soundButton:hover {
+              border: none;
+              outline: none;
+              background:url('res/soundIcon.png');
+              background-size: 36px 36px;
+              /* right: -42px;
+              bottom: 0px; */
+              width: 36px;
+              height: 36px;
+            }
+            #numpadButton {
+              /* position: absolute;
+              display: flex; */
+              border: none;
+              outline: none;
+              background:url('res/numpad.png');
+              background-size: 53px 70px;
+              /* right: -80px;
+              bottom: 60px; */
+              width: 53px;
+              height: 70px;
+            }
+            
+            #numpadButton:hover {
+              /* position: absolute;
+              display: flex; */
+              border: none;
+              outline: none;
+              background:url('res/numpad.png');
+              background-size: 53px 70px;
+              width: 53px;
+              height: 70px;
+              text-shadow: 0 0 70px #00ffff,  0 0 30px rgba(255,255,255,1);
+            }
+            #avgScores {
+              position: relative;
+              float: right;
+              color: #f2c830;
+              font-family: sliced;
+              font-size: 3.2vmin;
+              bottom: -2vmin;
+            }
+          
+            #backHomeFromGraph {
+              margin-top: 8%;
+              position: relative;
+              float: left;
+              font-family: sliced;
+              color: #7ccfff;
+              font-size: 3.2vmin;
+              left: 20px;
+            }
+            #backHomeFromGraph:hover {
+              cursor: pointer;
+              text-shadow: 0 0 70px #00ffff,  0 0 30px rgba(255,255,255,1);
+            }
+          
+            #backHomeFromGame {
+              position: absolute;
+              font-family: sliced;
+              color: #d3a50e;
+              font-size: 3.5vmin;
+              bottom: 10px;
+              right: 10px;
+            }
+          
+            #backHomeFromGame:hover {
+              cursor: pointer;
+              font-size: 3.2vmin;
+              text-shadow: 0 0 70px #00ffff,  0 0 30px rgba(255,255,255,1);
+            }
+  }
+  
+  #gameCanvas {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome and Opera */
+    background: radial-gradient(#56CCF2, #2F80ED);
+    width: 100%;
+  }
+  
+  #piScore {
+    color: white;
+    font-family: sliced;
+    position: absolute;
+    margin: 0px auto;
+    left: 5px;
+    top: 5px;
+    text-shadow: 2px 2px 5px #000000;
+  }
+  #piePic {
+    transition: all 6.2s ease-in-out;
+  }
+  #piePic:hover {
+    transform: scale(16.5);
+  }
+  #pieScore {
+    color: white;
+    font-family: sliced;
+    position: absolute;
+    margin: 0px auto;
+    top: 5px;
+    right: 5px;
+    text-shadow: 2px 2px 5px #000000;
+  }
+  
+  #timer {
+    color: white;
+    font-family: sliced;
+    position: absolute;
+    bottom: -15px;
+    left: 1%;
+    text-shadow: 1px 1px 3px #000000;
+  }
+  
+  #submitScore {
+    width: 100%;
+    background: rgb(72,222,223);
+    background: radial-gradient(circle, rgba(72,222,223,1) 0%, rgba(0,212,255,1) 4%, rgba(2,185,233,1) 51%, rgba(72,222,223,1) 93%); 
+    background-clip: text; 
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  #submitScore:hover {
+    cursor: pointer;
+    background: rgb(130, 240, 255);
+    background-clip: text; 
+    -webkit-background-clip: text;
+    color: transparent; 
+  }
+  
+  #trainingButton:hover{
+     text-shadow: 0 0 70px #ffdd63,  0 0 30px rgba(255,221,99,1), 0 0 40px rgba(255,221,99,1);
+  }
+  
+  .learnSequence {
+    position: absolute;
+    top: -40px;
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Opera and Firefox */
+    margin: 0 auto;
+    width: 140%;
+    font-family: slant;
+    font-size: 35px;
+  }
+  
+  #learnSequence span{
+    overflow: hidden;
+    display: inline !important;
+    color: #ebb33c;
+    font-size: 32px;
+    top: 40%;
+    position: left;
+    margin: 0 auto;
+    text-shadow: 0 0 70px #e23131,  0 0 30px rgba(255,255,255,1);
+  }
+  
+  #correctDigits {
+    color: #2fe04c;
+    text-shadow: 0 0 70px #1fa330,  0 0 30px rgba(255,255,255,1);
+    letter-spacing: 8px;
+  }
+  
+  #nextDigits {
+    color: #ebb33c;
+    letter-spacing: 8px;
+    margin-left: -20px;
+    text-shadow: 0 0 70px #b46d1c,  0 0 30px rgba(255,255,255,1);
+  }
+  .gameGUI {
+    margin: auto;
+    width: 100%;
+    height: 33%;
+    font-color: white;
+    padding: 0;
+    font-family: slant;
+    /*border: 2px solid #2456ad;*/
+  }
+  
+  #piButt {
+    position: fixed;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 628px;
+    height: 200px;
+    text-align: center;
+    font-size: 48px;
+    font-family: sliced;
+    background-color: #001a47;
+    color: white;
+    border: 2px solid #2456ad;
+  }
+  #playButton {
+    background-image: -webkit-linear-gradient(left, white 25%, #fde071 37.5%, #ef9671, #996a6e 62.5%, white 75%);
+    background: rgb(17, 99, 185);
+    background: linear-gradient(90deg, rgba(17,115,218,1) 12%, rgba(205,220,255,1) 35%, rgba(0,212,255,1) 100%);
+    background-position: right center;
+    background-size: 400% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: white;
+    text-fill-color: transparent;
+    transition: color 200ms linear;
+    text-shadow: 0 0 5px #93c4ff,  0 0 90px rgba(98, 205, 255, 1);
+    transition: background-position 100ms ease-out;
+  }
+  
+  .indexGui {
+    position: relative;
+    display: block;
+    top: -60%;
+    width: 60%;
+    min-height: 25%;
+    height: 25%;
+    border-radius: 10px 40px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a90329+0,8f0222+44,6d0019+100;Brown+Red+3D */
+    background: #a90329; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover, #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  
+    background: #f2994a; /* fallback for old browsers */
+    background: -webkit-radial-gradient(center, #ffc500, #f2860c); /* Chrome 10-25, Safari 5.1-6 */
+    background: radial-gradient(center, #ffc500, #f2860c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+    z-index: 99;
+    margin: 0 auto;
+  
+    -webkit-box-shadow: 0 0 60px 10px #6b3a03;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    0 0 60px 10px #442400;  /* Firefox 3.5 - 3.6 */
+    box-shadow:         0 0 60px 10px #552e01;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  }
+  
+  #indexPrompt {
+    text-shadow: 2px 2px 5px #000000;
+  }
+  
+  .indexGui p {
+    color: #f2c830;
+    font-family: sliced;
+    font-size: 4.0vmin;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin: 2px auto;
+    margin-top: 5%;
+    text-align: center;
+    text-shadow: 1px 2px 4px #000000;
+  }
+  
+  .indexGui a {
+    float: left;
+    width: 20px;
+    cursor: pointer;
+    font-family: slant;
+    font-size: 3.14vmin;
+    position: relative;
+    margin: 2px auto;
+    top: 19%;
+  
+    text-shadow: 1px 2px 4px #000000;
+  }
+  
+  #cancelTraining {
+    color: #c61f1f;
+    margin-left: 11%;
+  }
+  
+  #cancelTraining:hover {
+    color: #ec7070;
+  }
+  
+  #startTraining {
+    color: #38c61f;
+    margin-left: 4%;
+  }
+  
+  #startTraining:hover {
+    color: #90f77e;
+  }
+  
+  #submitPrompt {
+    text-shadow: 2px 2px 5px #000000;
+  }
+  
+  #nameCriteria {
+    background-color: #6d0019;
+    border-radius: 2px 2px 7px 7px;
+    margin-top: 14%;
+  }
+  
+  .submitUsername input {
+    outline: none;
+    background: #f2c830;
+    height: 2.4vmin;
+    width: 88%;
+    position: relative;
+    top: 20%;
+    font-size: 3vmin;
+    text-align: center;
+    font-family: sliced;
+    display: inline-block;
+    color: #5e2d0f;
+    left: 5%;
+    /*text-shadow: 1px 2px 3px #000000;*/
+  }
+  
+  
+  
+  #cancelUpload {
+    top: 30px;
+    color: #a00e0e;
+  }
+  
+  #cancelUpload:hover {
+    color: #e71010;
+  }
+  
+  #uploadScore {
+    top: 30px;
+    color: #38c61f;
+    left: 20%;
+  }
+  
+  #uploadScore:hover {
+    color: #90f77e;
+  }
+  
+  input[type="number"]::-webkit-outer-spin-button,
+  input[type="number"]::-webkit-inner-spin-button {
+      float: left;
+      -webkit-appearance: none;
+      margin: 0;
+  }
+  input[type="number"] {
+      -moz-appearance: textfield;
+  }
+  
+  @font-face 
+  {
+    font-family: slant;
+    src: url("res/slant.ttf");
+  }
+  
+  @font-face
+  {
+    font-family: sliced;
+    src: url("res/sliced.otf");
+  }
+  
+  
+  @-webkit-keyframes Gradient {
+    0% {
+      background-position: 0% 50%
+    }
+    50% {
+      background-position: 100% 50%
+    }
+    100% {
+      background-position: 0% 50%
+    }
+  }
+  
+  @-moz-keyframes Gradient {
+    0% {
+      background-position: 0% 50%
+    }
+    50% {
+      background-position: 100% 50%
+    }
+    100% {
+      background-position: 0% 50%
+    }
+  }
+  
+  @keyframes Gradient {
+    0% {
+      background-position: 0% 50%
+    }
+    50% {
+      background-position: 100% 50%
+    }
+    100% {
+      background-position: 0% 50%
+    }
+  }
+  
+  
+  .menuIcons {
+    width: 100%;
+    top: 103%;
+    position: absolute;
+    /* Desktop view:
+    right: -760px;
+    z-index: 0;
+    position: absolute;
+    width: 700px;
+    top: 12%;
+    */
+  }
+  
+  .graph {
+    position: relative;
+    width: 90%;
+    height: 80%;
+    margin-left: 2%;
+    margin-top: 2%;
+  }
+  
+  .leatherboard{
+    background:url('res/blue_leatherboard_bg.jpg');
+   
+    -webkit-box-shadow: 0px 24px 19px 2px rgba(0,0,0,0.44);
+    -moz-box-shadow: 0px 24px 19px 2px rgba(0,0,0,0.44);
+    box-shadow: 0px 24px 19px 2px rgba(0,0,0,0.44);
+    border-radius: 2% 6%;
+    background-size: cover;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width:80%;
+    left: 10%;
+    height:94%;
+    top: 4%;
+    z-index: 9999;
+    color: #E3EEFF; 
+    table-layout: fixed;
+  }
+  .leatherboard table{
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+    max-height: 95%;
+    height: 91%;
+    width: 90%;
+  
+    table-layout: inherit;
+  
+    align-self: center;
+    margin: 0 auto;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    background-color: rgba(22, 79, 173, 0.42);
+    text-align: center;
+    border-collapse: separate;
+  }
+  .leatherboard table td, .leatherboard table th {
+    border: 0px solid #D1AC29;
+    /* padding: 3px 4px; */
+  }
+  .leatherboard table tbody td {
+    font-size: 2.3vmin;
+    color: #CCECFF;
+  }
+  .leatherboard table tr:nth-child(even) {
+    background: rgba(39, 111, 255, 0.4);
+  }
+  .leatherboard table thead {
+    background: #3A5B8F;
+    font-size: 2.1vmin;
+    border-bottom: 1px solid #444444;
+  }
+  .leatherboard table thead th {
+    font-weight: bold;
+    color: #E3EEFF;
+    text-align: center;
+    border-left: 1px solid #D0E4F5;
+  }
+  .leatherboard table thead th:first-child {
+    border-left: none;
+  }
+  
+  .leatherboard table tfoot {
+    font-size: 1.8vmin;
+    font-weight: normal;
+    color: #FFFFFF;
+    background: #3A5B8F;
+    border-top: 2px solid #444444;
+  }
+  .leatherboard table tfoot td {
+    font-size: 1.8vmin;
+  }
+  .leatherboard table tfoot .links {
+    text-align: center;
+  }
+  .leatherboard table tfoot .links a{
+    font-weight: bold;
+    text-decoration: none;
+    background: rgb(82, 123, 189);
+    color: #FFFFFF;
+    padding: 2px 8px;
+    border-radius: 1px;
+    float: left;
+    margin-left: 10px;
+  }
+  #r_arrow {
+    float: right;
+    margin-right: 10px;
+  }
+  .leatherboard table tfoot .links a:hover{
+    color: rgb(204, 226, 255);
+    text-shadow: 2px 2px 5px #000000;
+    background: radial-gradient(circle, rgba(252,183,70,1) 3%, rgba(223,89,27,1) 90%); 
+    cursor: pointer;
+  
+  }
+  
+  #leatherboardOption {
+    background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgba(252,183,70,1) 3%, rgba(223,89,27,1) 90%); 
+    background-clip: text; 
+    -webkit-background-clip: text;
+    color: transparent; 
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    bottom: 15%;
+    left: 17%;
+  }
+  
+  #leatherboardOption:hover {
+    background: rgb(255, 228, 184);
+    background-clip: text; 
+    -webkit-background-clip: text;
+    color: transparent; 
+  }
+  
+  #hideLeatherboard {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: rgb(204, 226, 255);
+    font-size: 3vmin;
+    font-family: sliced;
+  }
+  
+  #hideLeatherboard:hover {
+    color: rgb(255, 243, 204);
+    text-shadow: 2px 2px 5px #000000;
+  
+  }
+  
+  table.db-table 		{ color: white; border-right:1px solid #ccc; border-bottom:1px solid #ccc; }
+  table.db-table th	{ color: white; background:#eee; padding:5px; border-left:1px solid #ccc; border-top:1px solid #ccc; }
+  table.db-table td	{ color: white; padding:5px; border-left:1px solid #ccc; border-top:1px solid #ccc; }

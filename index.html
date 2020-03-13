@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+</html>
+<head>
+  <link rel="stylesheet" href="stylesheet.css">
+  <link async href="http://fonts.googleapis.com/css?family=Warnes" data-generated="http://enjoycss.com" rel="stylesheet" type="text/css"/>
+  <link rel="icon" type="image/png" href="res/pie.png">
+  <script src="scripts/js-cookie.js" type="text/javascript"></script>
+  <link href="https://fonts.googleapis.com/css?family=Iceland" rel="stylesheet.css">
+  <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+  <script src="scripts/chart.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <meta charset="utf-8"/>
+  <meta name="description" content="whimsically blast pies to the moon as you recollect digits of pi!">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>PiPassion!</title>
+</head>
+
+<body>
+	<div class="main">
+		<!-- <p id="credits">?</p> -->
+
+		<div class="leatherboard" style="display: none;">
+			<table id="t">
+			</table>
+			<table id="tableTemplate" style="display: none;">
+				<tfoot id="leatherFooters">
+					<td colspan="4">
+						<div class="links">
+							<a id="l_arrow">&#8619; prev. page</a><a id="r_arrow">next page &#8620;</a>
+							<!-- <a id="sub0"> 20+ gang</a> <a id="sub1">100+ squad</a> <a id="sub2">250+ crew</a><a id="sub3">1 MILLION+ HACKER CLUB</a> -->
+						</div>
+					</td>
+				</tfoot>
+			</table>
+			<a id="hideLeatherboard"> bach </a>
+		</div>
+		<div class="menuIcons">
+			<div id="numPad"></div>
+		</div>
+
+		<div class="graph" style="display: none;">
+			<canvas id="progressGraph" width="90%" height="72%" style="margin-bottom: 0px;"></canvas>
+			<a id="backHomeFromGraph"> go Bach </a>
+			<input type="text" id="queryUserInput" value="mmmeh">
+			<a id="observeUser"> observe history </a>
+			<a id="avgScores">avg piScore: xx \\ avg pieScore: xx \\ avg time: xx:xx:xx</a>
+		</div>
+	
+		<div class="homeMenu" id="menu">
+			<p id="title">PiPassion! <br>
+			<img src="res/pie.png" id="piePic" style="width: 14%; margin: 0 auto; left: 50%;"> 
+			</p>
+			<a id="playButton"><span>  let's pi, my gadfly  </span></a>
+			<a id="trainingButton"><span>  training mode  </span></a>
+			<a id="progressButton"><span>  progress  </span></a>
+			<a id="leatherboardButton"><span>  Leatherboard  </span></a>
+			<!--<a id="calibrationButton">calibrate</a>-->
+
+		</div>
+			<p class="homeButton" id="holdMyPi" style="display: none;"></p>
+			<p class="knotties" id="knottyWords" style="display: none;"></p>
+		<div class="gameGUI" style="display: none;">
+			<div id="piGrid"></div>`
+			<div id="scoreboard"></div>
+		</div>
+		<div class="gameStage" style="display: none;">
+			<canvas width="628" height="310" id="gameCanvas"></canvas>
+			<p id="piScore">pi score: 0</p>
+			<p id="pieScore">pie score: 0</p>
+			<!--<p id="trainingIndicator" style="display: none;">training mode <br> &#x21AA press x to return <br> &#x21AA press s to show next 5 digits</a>-->
+			<p id="trainingIndicator" style="display: none;">training mode  &nbsp;
+			<!-- <a id="backHomeFromGame"> x: back </a> </p> -->
+			<p id="timer" style="display: none;">time elapsed: 00:00:00</p>
+			<a id="backHomeFromGame"> bach </a> </p>
+		</div>
+
+		<div class="gameOver" style="display: none;">
+			<!-- <div class="learnSequence">
+				<span id="correctDigits">3 3 </span>
+				<span id="nextDigits">4 4</span>
+			</div> -->
+			<p id="gameOverText">G A M E  &nbsp O V A H </p>
+			<p id="finalPiScore">pi score: </p>
+			<p id="finalPieScore">pie score: </p>
+			<p id="timeTaken">time taken: </p>
+
+			<div class="newGameOptions">
+				<!-- <a id="newGamePrompt">improve ya groove? ୧((#Φ益Φ#))୨</a>(╭ರ_⊙) -->
+				<a id="newGamePrompt">improve ya groove? ╭ರ_⊙</a>
+				<div class="newGameOptionBar">
+					<a id="yesGame">ok!</a>
+					<a id="noGame">no..</a>
+					<a id="submitScore">submit ya bits</a>
+					<a id="leatherboardOption" style="display: inline-block">view leatherboard</a>
+				</div>
+
+				<!-- <a id="trainingButton"><span>  training mode  </span></a> -->
+			</div>
+		</div>
+		<div class="submitUsername" style="display: none;">
+			<p id="submitPrompt"> use your name</p>
+			<input type="text" id="submitUsernameButt" maxlength="12" value="">
+			<a id="cancelUpload">..or not</a>
+			<a id="uploadScore">upload!</a>
+			<p id="nameCriteria">under 13 chars<br>alphanums -'s _'s & spaces<br>don't be knotty ಥ ڡ ಥ</p>
+		</div>
+		<div class="indexGui" style="display: none;">
+			<p id="indexPrompt"> choose starting index!</p>
+			<a id="cancelTraining">NO</a>
+			<input type="number" id="startingIndex" value="5">
+			<a id="startTraining">GO</a>		
+		</div>
+		</div>
+		<div class="optionButtons">
+			<button id="numpadButton"></button>
+			<button id="soundButton"></button>
+		</div>
+	</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
